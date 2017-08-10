@@ -11,12 +11,12 @@ public class Exercicio01 {
             float comprimento = 0;
             float altura = 0;
             float resultado;
-            String sLargura = JOptionPane.showInputDialog("Digite a largura: ");
-            String sComprimento = JOptionPane.showInputDialog("Digite o comprimento! ");
-            String sAltura = JOptionPane.showInputDialog("Digite a altura! ");
-            largura = parseFloat(sLargura);
-            comprimento = parseFloat(sAltura);
-            altura = parseFloat(sAltura);
+            String mLargura = JOptionPane.showInputDialog("Digite a largura: ");
+            String mComprimento = JOptionPane.showInputDialog("Digite o comprimento! ");
+            String mAltura = JOptionPane.showInputDialog("Digite a altura! ");
+            largura = parseFloat(mLargura);
+            comprimento = parseFloat(mAltura);
+            altura = parseFloat(mAltura);
 
             resultado = largura * comprimento * altura;
             JOptionPane.showMessageDialog(null, "O resultado de:  " + largura + "*" + comprimento + "*" + altura + " = " + (largura * comprimento * altura), "Resultado", JOptionPane.INFORMATION_MESSAGE);

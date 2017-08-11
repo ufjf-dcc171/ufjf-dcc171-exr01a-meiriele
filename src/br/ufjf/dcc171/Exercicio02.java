@@ -27,7 +27,7 @@ public class Exercicio02 {
                 
         distancia = (float) Math.sqrt( Math.pow( (x1 - x2),2 ) +  Math.pow( (y1 - y2),2 ) );
         
-        JOptionPane.showMessageDialog("A Distancia entre ponto um e ponto dois é: "+distancia+ "!", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null,"A Distancia entre ponto um e ponto dois é: "+distancia+ "!","Resultado", JOptionPane.INFORMATION_MESSAGE);
         
     }
 }
